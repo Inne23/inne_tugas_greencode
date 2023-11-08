@@ -131,7 +131,7 @@
     height: 50px;
 }
 .page3 .kotak3 img{
-    margin-left: 930px;
+    margin-left: 880px;
     margin-top: 150px;
     width: 300px;
     height: 200px;
@@ -139,7 +139,7 @@
 .page3 .kotak3 .teks{
     top: 150px;
     color:gold;
-    margin-left: 1030px;
+    margin-left: 980px;
    
 }
 .page3 .kotak3 .teks .teks1{
@@ -147,6 +147,87 @@
     text-align:center;
     margin-right: 180px;
     height: 50px;
+}
+.page3 .kotakbawah p{
+    position: absolute;
+    top:85%;
+    margin-left: 450PX;
+    background-color: rgb(168, 176, 207);
+    padding: 5px;
+    border-radius: 5px;
+    left: 150px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.page4{
+    position: relative;
+    height: 700px;
+    background-color:rgb(121, 121, 179);
+    margin-top: -20px;
+   
+}
+.page4 .data1 {
+    font-size: large;
+    color: gold;
+    margin-left: 50px;
+    font-weight: bold;
+    text-decoration: underline white ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page4 .data2{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    top:10%;
+    margin-left: 20PX;
+    background-color:rgb(153, 47, 153);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    left: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page4 .data3{
+    width: 500px;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+}
+.page4 .data4 img{
+    width: 20%;
+    height: 20%;
+    margin-left: 880px;
+    position: relative;
+    top: -450px;
+}
+.page4 .data4 p{
+    margin-left: 940px;
+    position: relative;
+    top: -450px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page4 .data5{
+    margin-left: 940px;
+    position: relative;
+    margin-top: -33%;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gold;
+    position: absolute;
+    border-radius: 5px;
+    color: black;
 }
 
 

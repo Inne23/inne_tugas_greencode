@@ -171,8 +171,9 @@
     font-size: large;
     color: gold;
     margin-left: 50px;
+    padding-top: 10px;
     font-weight: bold;
-    text-decoration: underline white ;
+    text-decoration: underline white 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .page4 .data2{

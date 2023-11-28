@@ -5,4 +5,14 @@ function bilangan(angka) {
         return "angka ganjil"
     }
     
-}console.log(bilangan (20))
+}console.log(bilangan())
+
+
+
+let ismahasiswa = true 
+    if (ismahasiswa == false) {
+        console.log("aku bukan mahasiswa")
+    }else if(ismahasiswa == true){
+        console.log("aku mahasiswa")
+    }
+

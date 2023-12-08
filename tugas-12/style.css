@@ -1,0 +1,331 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 102px;
+    background-color:white;
+    padding-right: 20px;
+    position: fixed;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 200px;
+    margin-top: 45px;
+    padding-right: 100px;
+    gap:50px;
+}
+.nav ul li{
+    list-style: none;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    flex-direction: row;
+    line-height: 12px;
+    letter-spacing: 20%;
+}
+.nav ul li main{
+    border-top: 2px;
+    border-bottom: 2px;
+}
+.nav p{
+    margin-top: 29px;
+    margin-left: 136px;
+}
+.kelas1{
+    width: 100%;
+}
+.page {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 122px;
+    justify-content: end;
+    gap: 150px;
+   
+}
+.satu{
+    display: flex;
+    gap: 10px;
+    margin-top: 70px;
+}
+.angka{
+    display: flex;
+    margin-top: 70px;
+}
+
+.kotak1 .atas{
+    font-size: 64px;
+    line-height: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BDBDBD;
+    
+}
+.kotak1 .bawah{
+    font-size: 64px;
+    line-height: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: -50px;
+}
+
+.page .kotak2 {
+    width: 770px;
+    height: 829px;
+    background-image: url(img/gambar\ 1.png);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    margin-right: 20px;
+}
+.page .kotak2 button{
+    width: 221.81px;
+    height: 71px;
+    border: none;
+    background-color: #FFFFFF;
+}
+.kelas2{
+    width: 100%;
+}
+.page1{
+    width: 1170px;
+    height: 465px;
+    background-color: #FBFBFB;
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    
+}
+.satu .bab1{
+    width: 270px;
+    height: 265px;
+    margin-bottom: 10px;
+    
+}
+.satu .bab2{
+    width: 270px;
+    height: 140px;
+}
+.page1 .satu{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.page1 .dua{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    margin-right: 50px;
+}
+.page1 .tiga{
+    width: 400px;
+    height: 200px;
+    margin-top: -30px;
+}
+.tiga h1{
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BDBDBD;
+    font-weight: lighter;
+}
+.tiga button{
+    width: 222px;
+    height: 71px;
+    margin-top: 20px;
+    border: none;
+    background-color: #FFFFFF;
+}
+.kelas3{
+    width: 100%;
+    margin-top: 50px;
+}
+.kelas3 .kotak1{
+    display: flex;
+    margin-left: 100px;
+}
+.kelas3 .kotak1 h1{
+    width: 880px;
+    height: 64px;
+    color: #BDBDBD;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kotak2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+   
+}
+.kotak2 img{
+    width: 104px;
+    height: 140px;
+    margin-left: 100px;
+}
+.kotak2 p{
+    width:279px;
+    height: 144px;
+    font-size: 22px;
+    line-height: 36px;
+    margin-top: -5px;
+}
+.kotak3{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    margin-right: 100px;
+    margin-top: -180px;
+    
+}
+.kotak3 img{
+    width: 120px;
+    height: 140px;
+}
+.kotak3 p{
+    width: 420px;
+    height: 144px;
+    font-size: 22px;
+    line-height: 36px;
+
+}
+.kelas4{
+    width: 100%;
+}
+.kelas4 .page1{
+    display: flex;
+    margin-left: 100px;
+    background-color: transparent;
+    flex-direction: column;
+}
+.kelas4 .page1 h1{
+    width: 364px;
+    height: 64px;
+    color: #BDBDBD;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kelas4 .page2{
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    gap: 30px;
+    margin-top: -300px;
+    
+}
+.page2 img{
+    width: 570px;
+    height: 255px;
+}
+.page3{
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.page3 .bab1{
+    width: 270px;
+    height: 255px;
+}
+.page3 .bab2{
+    width: 470px;
+    height: 255px;
+}
+.page3 .bab3{
+    width: 370px;
+    height: 255px;
+}
+.page4{
+    justify-content:end ;
+    align-items: end;
+    display: flex;
+    margin-right: 90px;
+    margin-top: 30px;
+}
+.page4 button{
+    width: 222px;
+    height: 71px;
+    background-color: #333333;
+    color: #FFFFFF;
+
+}
+
+.kelas5{
+    width: 100%;
+    margin-bottom: 450px;
+}
+.kelas5 .kolom1{
+    display: flex;
+    margin-left: 100px;
+    background-color: transparent;
+    flex-direction: column;
+}
+.kelas5  h1{
+    width: 500px;
+    height: 64px;
+    color: #BDBDBD;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kolom2{
+    width: 749px;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.kolom2 .a{
+    margin-top: 10px;
+    width: 391px;
+    height: 45px;
+    background-color: #F3F3F3;
+}
+.kolom2 .b{
+    width: 391px;
+    height: 147px;
+    margin-top: 10px;
+    background-color: #F3F3F3;
+}
+.kolom3{
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    margin-top: -400px;
+    margin-right: 50px;
+}
+.kolom3 img{
+    width: 749px;
+    height: 400px;
+}
+.kolom4{
+    justify-content: start;
+    align-items: end;
+    display: flex;
+    margin-right: 90px;
+    margin-top: 77px;
+    margin-left: 100px;
+}
+.kolom4 button{
+    width: 221.81px;
+    height: 71px;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+

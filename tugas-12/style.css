@@ -292,7 +292,7 @@ body{
     margin-left: 100px;
 }
 .kolom2 .a{
-    margin-top: 10px;
+    margin-top: 5px;
     width: 391px;
     height: 45px;
     background-color: #F3F3F3;
@@ -300,7 +300,7 @@ body{
 .kolom2 .b{
     width: 391px;
     height: 147px;
-    margin-top: 10px;
+    margin-top: 5px;
     background-color: #F3F3F3;
 }
 .kolom3{
@@ -328,4 +328,95 @@ body{
     background-color: #333333;
     color: #FFFFFF;
 }
-
+.kelas6{
+    width: 100%; 
+   margin-top: -400px;
+}
+.kelas6 .tes1{
+    background-color: #2C2C2C;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 200px;
+}
+.kelas6 .tes1 p{
+    display: flex;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kelas6 .tes1 h1{
+    font-size: 17px;
+    line-height: 18.7px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tes1 p img{
+    width: 145px;
+    height: 94px;
+    margin-top: -80px;
+}
+.kelas6 .tes1 .baris1{
+    margin-top: 30px;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 18.7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tes1 .baris2{
+    flex-direction: column;
+    display: flex;
+    margin-top: 20px;
+    margin-left: -10px;
+}
+.tes1 .baris2 .bab1{
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+}
+.tes1 .baris2 .bab1 p{
+    width: 150px;
+    height: 52px;
+}
+.tes1 .baris2 .bab1 img{
+    width: 11px;
+    height: 16px;
+}
+.baris2 .bab2{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.baris2 .bab2 img{
+    width: 16.01px;
+    height: 16px;
+}
+.baris2 .bab3{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.baris2 .bab3 img{
+    width: 16px;
+    height: 11px;
+}
+.baris3{
+    flex-direction: column;
+    margin-top: -130px;
+    margin-left: -100px;
+  
+}
+.baris3 img{
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 15px;
+    height:16px ;
+    gap: 20px;
+}

@@ -1,0 +1,32 @@
+.kolom{
+    width: 100%;
+    height: 1029px;
+    flex-direction: row;
+}
+.kotak{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction:column;
+    gap: 109px;
+    margin-left: 150px;
+    margin-top : 50px;
+}
+.kotak .hijau{
+    width: 488px;
+    height: 296px;
+    background-color: #008000;
+}
+.bola{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 100px;
+   
+}
+.bola .hitam{
+    width: 398px;
+    height: 396px;
+    background-color: #000000;
+    border-radius: 100%;
+}

@@ -1,0 +1,111 @@
+.kelas1{
+    width: 100%;
+}
+.pertama{
+    width: 100%;
+    height: 219px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kelas2{
+    width: 100%;
+    margin-top: 202px;
+}
+.kotak{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 409PX;
+
+}
+.kotak .satu{
+    width: 384px;
+    height: 405px;
+    background-color: #D9D9D9;
+    border-radius: 100%;
+}
+.kotak1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 587PX;
+    margin-top: -300px;
+
+}
+.kotak1 .dua{
+    width: 206px;
+    height: 198px;
+    background-color: black;
+    border-radius: 100%;
+}
+.kotak2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+
+}
+.kotak2 .tiga{
+    width: 409px;
+    height: 2px;
+    background-color: black;
+}
+.kelas3{
+    width: 100%;
+}
+.kotak{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 393px;
+}.kotak .hidung{
+    width: 205px;
+    height: 109px;
+    background-color: #D9D9D9;
+}
+.kelas4{
+    width: 100%;
+}
+.kotak{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 206px;
+}
+.kotak .mulut{
+    width: 1080px;
+    height: 50px;
+    background-color: #D9D9D9;
+}
+.kelas5{
+    width: 100%;
+}
+.kotak{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 206px;
+}
+.kotak .dagu{
+    width: 409px;
+    height: 634px;
+    background-color: #D9D9D9;
+}
+.kelas6{
+    width: 100%;
+}
+.kotak{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 401px;
+}
+.kotak .jakun{
+    width: 1440px;
+    height: 555px;
+    background-color: #D9D9D9;
+}

@@ -7,10 +7,17 @@
     display: flex;
     justify-content: start;
     align-items: start;
-    flex-direction:column;
+    flex-direction: column;
     gap: 109px;
     margin-left: 150px;
     margin-top : 50px;
+}
+.bungkus{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    gap: 210px;
 }
 .kotak .hijau{
     width: 488px;
@@ -22,6 +29,7 @@
     justify-content: end;
     align-items: center;
     margin-right: 100px;
+    
    
 }
 .bola .hitam{
@@ -29,4 +37,48 @@
     height: 396px;
     background-color: #000000;
     border-radius: 100%;
+}
+.kelas2{
+    width: 100%;
+   
+}
+.bungkus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pertama{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 454px;
+}
+.pertama .satu{
+    width: 378px;
+    height: 671px;
+    background-color: #D9D9D9;
+}
+.kedua{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 128px;
+}
+.kedua .satu{
+    width: 378px;
+    height: 671px;
+    background-color: #D9D9D9;
+}
+.ketiga{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 201px;
+    margin-bottom: 196px;
+}
+.ketiga .dua{
+    width: 1230px;
+    height: 112px;
+    background-color:#D9D9D9 ;
 }

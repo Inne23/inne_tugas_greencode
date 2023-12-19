@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="addData()">
+        <label for="">id</label>
+        <input type="number" id="input-id" required>
+        <br>
+        <br>
+        <label for="">name</label>
+        <input type="text" id="input-name"required>
+        <br>
+        <br>
+        <label for="">nmr_phone</label>
+        <input type="text" id="input-nmr_phone"required>
+        <br>
+        <br>
+        <label for="">point</label>
+        <input type="number" id="input-point"required>
+        <br>
+        <br>
+        <button type="submit">Tambah Data</button>
+    </form>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>nmr_phone</th>
+                <th>point</th>
+                <th>action</th>
+            </tr>
+        </thead>
+        <tbody id="data">
+            <!-- <tr>
+                <td>1</td>
+                <td>Putri Cantika</td>
+                <td>628976548373829</td>
+                <td>256</td>
+            </tr> -->
+
+        </tbody>
+    </table>
+
+    <script src="inne.js"></script>
+</body>
+</html>

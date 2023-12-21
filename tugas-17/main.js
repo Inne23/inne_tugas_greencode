@@ -1,4 +1,13 @@
-const express = require('express')
+const express = require('express');
+const { GetUser } = require('./api/user/getUser');
+const { PostUser } = require('./api/user/postUser');
+const { DeleteUser } = require('./api/user/deleteUser');
+const { GetProduk } = require('./api/Produk/getProduk');
+const { PostProduk } = require('./api/Produk/postProduk');
+const { DeleteProduk } = require('./api/Produk/deleteProduk');
+const { GetDataDiri } = require('./api/DataDiri/getDataDiri');
+const { PostDataDiri } = require('./api/DataDiri/postDataDiri');
+const { DeleteDataDiri } = require('./api/DataDiri/deleteDataDiri');
 const app = express()
 const port = 3000
 app.use(express.json());
@@ -10,50 +19,26 @@ app.use((req, res, next) => {
     next();
 });
 
-let datasaya = [{
-    "id": 1,
-    "name": "inne",
-    "nmr_phone": "082210415064",
-    "point": "350 point"
-}]
+app.get("/tugas-user",GetUser)
+app.post("/tugas-user", PostUser)
+app.delete("/tugas-user", DeleteUser)
 
-app.get("/tugas-user", function (req, res) {
-    
-    res.json({
-        message:"succes data berhasil",
-        data : datasaya,
-    })
-})
+app.get("/produk-user",GetProduk)
+app.post("/produk-user",PostProduk)
+app.delete("/produk-user",DeleteProduk)
 
-app.post("/tugas-user", function (req , res) {
-    const { id, name, nmr_phone, point} = req.body
+app.get("/datadiri-user",GetDataDiri)
+app.post("/datadiri-user",PostDataDiri)
+app.delete("/datadiri-user",DeleteDataDiri)
 
-    datasaya.push({
-    
-    "id": id,
-    "name": name,
-    "nmr_phone": nmr_phone,
-    "point": point,
 
-    })
-    res.json({
-        message: "data berhasil ditambahkan"
-    })
-    
-})
 
-app.delete("/tugas-user", function (req, res) {
-    const { id, } = req.body;
 
-    for (let index = 0; index < datasaya.length; index++) {
-        if (id == datasaya[index].id) {
-            datasaya.splice(index, 1)
-        }
-    }
-    res.json({
-        message: "data berhasil di hapus"
-    });
-})
+
+
+
+
+
 app.listen(port, function () {
     console.log("server berjalan")
 })

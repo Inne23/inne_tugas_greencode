@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="addDataDiri()">
+        <label for="">id</label>
+        <input type="number" id="input-id" required>
+        <br>
+        <br>
+        <label for="">nama</label>
+        <input type="text" id="input-nama"required>
+        <br>
+        <br>
+        <label for="">jenis_kelamin</label>
+        <input type="text" id="input-jenis_kelamin"required>
+        <br>
+        <br>
+        <label for="">agama</label>
+        <input type="text" id="input-agama"required>
+        <br>
+        <br>
+        <label for="">alamat</label>
+        <input type="text" id="input-alamat"required>
+        <br>
+        <br>
+        <label for="">usia</label>
+        <input type="text" id="input-usia"required>
+        <br>
+        <br>
+        <label for="">tanggal_lahir</label>
+        <input type="text" id="input-tanggal_lahir"required>
+        <br>
+        <br>
+        <button type="submit">Tambah Data</button>
+    </form>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>nama</th>
+                <th>jenis_kelamin</th>
+                <th>agama</th>
+                <th>alamat</th>
+                <th>usia</th>
+                <th>tanggal_lahir</th>
+                <th>action</th>
+            </tr>
+        </thead>
+        <tbody id="data">
+        </tbody>
+    </table>  
+
+    <script src="../integration/datadiriIntegration.js"></script>
+</body>
+</html>

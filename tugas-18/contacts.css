@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 102px;
+    background-color:black;
+    padding-right: 20px;
+    position: fixed;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 200px;
+    padding-right: 100px;
+    gap:50px;
+}
+.nav ul .a{
+    list-style: none;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 12px;
+    color: white;
+    letter-spacing: 20%;
+    font-weight: bold;
+}
+
+.nav ul .b{
+    color: #FADB39;
+    list-style: none;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 12px;
+    letter-spacing: 20%;
+    font-weight: bold;
+}
+
+.nav p{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 35px;
+    margin-left: 136px;
+    color: white;
+    font-weight: bold;
+}
+.kelas5{
+    width: 100%;
+    background-image: url(img/4.1.png);
+    height: 900px;
+}
+.akhir{
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   flex-direction: row;
+   margin-left: 100px;
+   gap: 20px;
+}
+.akhir img{
+    width: 52px;
+    height: 55px;
+    margin-top: 100px;
+}
+.akhir .p{
+    font-size: 20px;
+    margin-top: 100px;
+    color: white;
+}
+.bungkus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 151px;
+}
+.kelas5 .satu img{
+    width: 544px;
+    height: 449px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.akhir1{
+    background-color: black;
+    width: 454px;
+    height: 590px;
+    margin-right: 100px;
+}
+
+.kelas5  h1{
+    width: 193px;
+    height: 30px;
+    color: white;
+    margin-left: 25px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kolom2{
+    width: 391px;
+    height: 50px;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 25px;
+}
+.kolom2 .a{
+    margin-top: 5px;
+    width: 391px;
+    height: 50px;
+    background-color: #F3F3F3;
+}
+.kolom2 .b{
+    width: 391px;
+    height: 147px;
+    margin-top: 5px;
+    background-color: #F3F3F3;
+}
+.kolom4{
+    justify-content: start;
+    align-items: end;
+    display: flex;
+}
+.kolom4 button{
+    width: 157px;
+    height: 50px;
+    background-color: #FA6739;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 25;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 380px;
+}

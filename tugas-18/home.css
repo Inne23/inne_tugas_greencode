@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 102px;
+    background-color:black;
+    padding-right: 20px;
+    position: fixed;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 200px;
+    padding-right: 100px;
+    gap:50px;
+}
+.nav ul .a{
+    list-style: none;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 12px;
+    color: white;
+    letter-spacing: 20%;
+    font-weight: bold;
+}
+
+.nav ul .b{
+    color: #FADB39;
+    list-style: none;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 12px;
+    letter-spacing: 20%;
+    font-weight: bold;
+}
+
+.nav p{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 35px;
+    margin-left: 136px;
+    color: white;
+    font-weight: bold;
+}
+.kelas1{
+    width: 100%;
+}
+.bungkus{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    gap: 50px;
+}
+.page{
+    width:65%;
+    height: 900px;
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-image: url(img/slider1\ 1.png)
+}
+.page h1{
+    color: white;
+    font-size: 50px;
+    width: 767px;
+    height: 77px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.page .kotak {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 2px;
+    gap: 25px;
+}
+.page .kotak img{
+    width: 32.19px;
+    height: 32.19px;
+}
+.page .kotak p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.page .kotak .anak1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+}
+.page .kotak .anak2{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.page1 h1{
+    font-size: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.page1 p{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+.page2 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 50px;
+    gap: 20px;
+    width: 393px;
+    height: 64px;
+    background-color: white;
+}
+.page3 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 50px;
+    gap: 20px;
+    width: 393px;
+    height: 64px;
+    margin-top: 20px;
+    background-color: white;
+}
+.page4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page5 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    gap: 20px;
+    width: 393px;
+    height: 64px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.page6 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    gap: 20px;
+    width: 393px;
+    height: 64px;
+    margin-top: 20px;
+    background-color: white;
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
